@@ -1,0 +1,87 @@
+:root {
+  --grey-color: "#808080";
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  justify-content: center;
+  font-family: "Inter";
+  height: auto;
+}
+
+.wrapper {
+  max-width: 1280;
+  margin: 0 80px 0 80px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 67px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+section {
+  padding: 0;
+  color: black;
+}
+
+section h5 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: relative;
+  left: 65px;
+}
+
+section h5::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 4px;
+  top: 10px;
+  left: -60px;
+  background: #70259b;
+}
+
+/*Tablet version*/
+@media (max-width: 1040px) {
+  .wrapper {
+    max-width: 960;
+  }
+}
+
+/*smart phone version*/
+@media (max-width: 720px) {
+  .wrapper {
+    padding: 0 32px;
+    max-width: 694px;
+  }
+
+  h1 {
+    font-size: 30px;
+    line-height: 32px;
+  }
+
+  section h2 {
+    font-size: 24px;
+  }
+
+  section h2::before {
+    width: 50px;
+    bottom: 0;
+  }
+}

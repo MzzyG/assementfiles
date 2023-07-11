@@ -1,0 +1,59 @@
+.rootOfBrands {
+  max-width: 1281px;
+  min-height: 575px;
+}
+
+.headingDivBrand {
+  margin-top: 71px;
+  margin-left: 1px;
+  width: 162px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.rectangleDivBrand {
+  width: 40px;
+  height: 4px;
+  margin-top: 11px;
+}
+
+.headingTextBrand {
+  min-width: 247px;
+  height: 30px;
+  margin-top: 0;
+  margin-left: 19px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.titleBrand {
+  margin-top: 30px;
+  max-width: 1279px;
+  height: 68px;
+}
+
+.titleTextBrand {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 67px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.imageDivBrand {
+  margin-top: 87px;
+  max-width: 1320px;
+  min-height: 360px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.imageBrand {
+  width: 256px;
+  height: 120px;
+  gap: 10px;
+}

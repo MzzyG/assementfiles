@@ -1,0 +1,72 @@
+.rootOfCaseStudy {
+  width: 100%;
+  min-height: 486px;
+  margin-top: 150px;
+}
+
+section .scroll-container {
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  justify-content: space-between;
+  white-space: nowrap;
+}
+
+/*smart phone version */
+@media (max-width: 720px) {
+  section .scroll-container {
+    flex-direction: column;
+  }
+
+  section .imageDiv {
+    margin-bottom: 10px;
+    gap: 0;
+  }
+}
+
+section .imageDiv {
+  position: relative;
+  padding: 10px;
+  gap: 10px;
+  width: 399px;
+  height: 399px;
+  margin-right: 10px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+section .cardTitle {
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+section .cardDescription {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  width: 351px;
+  text-wrap: wrap;
+}
+
+.card {
+  top: -200px;
+  z-index: 3;
+  position: relative;
+  width: Fixed (399px);
+  height: Hug (170px);
+  padding: 24px;
+  gap: 16px;
+}
+
+section .cardRectangle {
+  width: 40px;
+  height: 4px;
+}
